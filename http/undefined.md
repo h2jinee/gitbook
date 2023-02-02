@@ -28,3 +28,27 @@ description: HTTP (HyperText Transfer Protocol)
 
 ## HTTP 메시지
 
+### HTTP Method (요청)
+
+> [https://developer.mozilla.org/ko/docs/Web/HTTP/Methods](https://developer.mozilla.org/ko/docs/Web/HTTP/Methods)
+
+1. GET → Read
+2. HEAD → GET without body
+3. POST → Submit (멱등성X) ⇒ Collection Pattern에서 Create로 사용
+4. PUT → Update (+Create) ⇒ Overwrite!
+5. PATCH → Update (partial) (멱등성X)
+6. DELETE → Delete
+7. OPTIONS → 지원 확인
+
+### HTTP Status Code (응답)
+
+> [https://developer.mozilla.org/ko/docs/Web/HTTP/Status](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
+
+1. 1xx → 정보 ⇒ 우리가 직접 쓰는 일은 드물다.
+2. 2xx → 성공 ⇒ 200 OK, 201 Created, 204 No Content
+3. 3xx → 리다이렉션 ⇒ 304 Not Modified가 특수한 형태로 자주 보임.
+4. 4xx → 클라이언트 쪽 문제 ⇒ 404 Not Found
+5. 5xx → 서버 쪽 문제 ⇒ 500 Internal Server Error
+
+
+
