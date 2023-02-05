@@ -24,7 +24,7 @@ description: HTTP (HyperText Transfer Protocol)
 
 ## HTTP와 HTTPS의 차이(TLS)
 
-HTTP는 웹 표준 프로토
+
 
 ## 클라이언트-서버 모델
 
