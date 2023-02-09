@@ -18,12 +18,40 @@
 
 ### 둘의 차이
 
-> 아샬님께서 은닉은 뒤?에 숨는 것이라면 캡슐화는 감싸는 것이라고 하셨다.
->
-> 근데 사실 완벽하게 이해가 되지 않는다..
->
-> 추후에 다시 공부해야 될 것 같다.
+아샬님께서 은닉은 뒤?에 숨는 것이라면 캡슐화는 감싸는 것이라고 하셨다.
+
+근데 사실 완벽하게 이해가 되지 않는다..
+
+추후에 다시 공부해야 될 것 같다.
 
 ## Architecture와 Architecture Style의 차이
 
+Architecture는 <mark style="color:purple;">**소프트웨어 시스템의 구조, 구성, 관계, 동작 등을 설계하고 정의하는 것**</mark>을 말한다.
+
+소프트웨어 시스템의 기능, 성능, 확장성, 유지보수성, 보안 등의 요구사항을 만족시키면서 구조와 관계를 결정한다.
+
+
+
+Architecture Style은 <mark style="color:purple;">**소프트웨어 시스템의 구조를 표현하는 방법을 정의한 패턴**</mark>을 말하며,
+
+소프트웨어 시스템의 구조를 일정한 형식으로 표현하고, 재사용 할 수 있는 패턴을 제공한다.
+
+Model-View-Controller(MVC), Representational State Transfer(REST), Microservices 등이 그  예이다.
+
+> <mark style="color:purple;">**결론적으로 Architecture는 소프트웨어 시스템의 구조를 설계하는 것,**</mark> \ <mark style="color:purple;">**Architecture Style은 구조를 표현하는 패턴을 말한다.**</mark>
+
 ## REST(7가지 제약 조건 위주로 정리)
+
+REST (Representational State Tranfer)는 소프트웨어 아키텍처 스타일로, 웹 기술 기반의 아키텍처를 정의하는 방식을 말한다.&#x20;
+
+REST 아키텍처 스타일은 7개의 제약 조건을 가지고 있다.
+
+### 제약 조건
+
+1. Starting with the Null Style
+2. Client-Server
+3. Stateless
+4. Cache
+5. **Uniform Interface** (핵심)
+6. Layered System
+7. Code-On-Demand
